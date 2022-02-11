@@ -24,3 +24,7 @@ class StatusManager:
                 # printer_status = json.loads(sample_output)
                 print(printer_status)
                 return printer_status
+
+
+def generate_status_manager():
+    return StatusManager()
